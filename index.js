@@ -1,9 +1,15 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  const palindrome = word.split("").reverse().join("");
+  return word === palindrome;
 }
 
 /* 
-  Add your pseudocode here
+  initalize a function called idPalindrom
+
+  take in an parameter named word
+  in the body, compare the word to determine if its palindrome
+
+  return true or false
 */
 
 /*
